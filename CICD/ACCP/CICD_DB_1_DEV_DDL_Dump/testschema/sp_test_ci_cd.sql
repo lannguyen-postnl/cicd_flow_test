@@ -7,6 +7,8 @@ BEGIN
     RAISE INFO 'Code change 1';
     RAISE INFO 'Work in progress 2';
     RAISE INFO 'Work in progress 3';
+    RAISE INFO 'Final version';
+
 END;
 $$;
 
