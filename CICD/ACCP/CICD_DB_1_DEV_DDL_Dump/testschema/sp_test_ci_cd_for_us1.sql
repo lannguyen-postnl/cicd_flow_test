@@ -5,6 +5,7 @@ BEGIN
     RAISE INFO 'Add new changes';
     insert into testschema.test_ci_cd values (2,4);
     RAISE INFO 'Work in progress 1';
+    RAISE INFO 'Final update for US1';
 
 END;
 $$;
