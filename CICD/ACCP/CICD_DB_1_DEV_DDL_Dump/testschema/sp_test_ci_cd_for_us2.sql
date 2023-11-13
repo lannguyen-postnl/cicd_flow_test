@@ -5,6 +5,7 @@ BEGIN
     RAISE INFO 'Add new changes';
     insert into testschema.test_ci_cd values (2,4);
     RAISE INFO 'Add new changes in US2 sproc';
+    RAISE INFO 'Final change for US2';
 
 
 END;
