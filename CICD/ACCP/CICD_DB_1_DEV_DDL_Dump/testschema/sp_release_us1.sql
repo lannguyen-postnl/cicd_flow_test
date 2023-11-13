@@ -4,6 +4,7 @@ as $$
 BEGIN
     RAISE INFO 'Add new changes';
     insert into testschema.test_ci_cd values (2,4);
+    RAISE INFO 'Add new changes 1';
 
 END;
 $$;
