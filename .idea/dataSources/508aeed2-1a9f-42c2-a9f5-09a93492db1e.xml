@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ACC-RW">
+  <database-model serializer="dbm" dbms="REDSHIFT" family-id="REDSHIFT" format-version="4.49">
+    <root id="1">
+      <ServerVersion>1.0.58814</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="accp">
+      <AllowConnections>1</AllowConnections>
+      <Current>1</Current>
+      <ObjectId>452043</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </database>
+    <database id="3" parent="1" name="dev">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>100367</ObjectId>
+      <OwnerName>rdsdb</OwnerName>
+    </database>
+    <database id="4" parent="1" name="padb_harvest">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>100368</ObjectId>
+      <OwnerName>rdsdb</OwnerName>
+    </database>
+    <database id="5" parent="1" name="ingest_db">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>1339575</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </database>
+    <database id="6" parent="1" name="dwh_db">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>1341726</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </database>
+    <database id="7" parent="1" name="ingest_db_dev">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>2266257</ObjectId>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </database>
+    <database id="8" parent="1" name="awsdatacatalog">
+      <ObjectId>4977235</ObjectId>
+      <OwnerName>rdsdb</OwnerName>
+    </database>
+    <database id="9" parent="1" name="mgt_db">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>6161342</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </database>
+    <database id="10" parent="1" name="cicd_test">
+      <AllowConnections>1</AllowConnections>
+      <ObjectId>6234802</ObjectId>
+      <OwnerName>lannguyen</OwnerName>
+    </database>
+    <external-database id="11" parent="1" name="cbs_pentaho_dw_instance">
+      <DatashareAccount>815649711844</DatashareAccount>
+      <DatashareName>cbs_pentaho_dw_instance</DatashareName>
+      <DatashareNamespace>f814d5bc-0f93-4b23-a3e7-76d4c96bd354</DatashareNamespace>
+      <ObjectId>966778</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-database>
+    <external-database id="12" parent="1" name="pnlp_led_dsa_pnp_waarneming">
+      <DatashareAccount>502105765132</DatashareAccount>
+      <DatashareName>pnlp_led_cbs_dsa_pnp_waarneming</DatashareName>
+      <DatashareNamespace>429fd530-98f7-4c22-ab45-546ee3ab7b6c</DatashareNamespace>
+      <ObjectId>964893</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-database>
+    <external-database id="13" parent="1" name="pnlp_led_dsa_trc_tracy">
+      <DatashareAccount>502105765132</DatashareAccount>
+      <DatashareName>pnlp_led_cbs_dsa_trc_tracy</DatashareName>
+      <DatashareNamespace>429fd530-98f7-4c22-ab45-546ee3ab7b6c</DatashareNamespace>
+      <ObjectId>964892</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-database>
+    <external-database id="14" parent="1" name="pnlp_led_dwa_pnp">
+      <DatashareAccount>502105765132</DatashareAccount>
+      <DatashareName>pnlp_led_cbs_dwa_pnp</DatashareName>
+      <DatashareNamespace>429fd530-98f7-4c22-ab45-546ee3ab7b6c</DatashareNamespace>
+      <ObjectId>909708</ObjectId>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-database>
+    <schema id="15" parent="2" name="admin">
+      <ObjectId>472286</ObjectId>
+      <StateNumber>71135225</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="16" parent="2" name="analyst_datasets">
+      <ObjectId>480356</ObjectId>
+      <StateNumber>117827928</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="17" parent="2" name="beacon">
+      <ObjectId>4444129</ObjectId>
+      <StateNumber>95778701</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="18" parent="2" name="cmr">
+      <ObjectId>472287</ObjectId>
+      <StateNumber>60374336</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="19" parent="2" name="co2">
+      <ObjectId>867656</ObjectId>
+      <StateNumber>81616908</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="20" parent="2" name="collo">
+      <ObjectId>472288</ObjectId>
+      <StateNumber>119104937</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="21" parent="2" name="ct">
+      <ObjectId>948222</ObjectId>
+      <StateNumber>59336408</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="22" parent="2" name="customs">
+      <ObjectId>942688</ObjectId>
+      <StateNumber>50281294</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="23" parent="2" name="et">
+      <ObjectId>5104229</ObjectId>
+      <StateNumber>102414025</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="24" parent="2" name="fin">
+      <ObjectId>472289</ObjectId>
+      <StateNumber>60374340</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="25" parent="2" name="information_schema">
+      <ObjectId>17131</ObjectId>
+      <StateNumber>71880119</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="26" parent="2" name="ipc">
+      <ObjectId>472290</ObjectId>
+      <StateNumber>60374347</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="27" parent="2" name="ips">
+      <ObjectId>472291</ObjectId>
+      <StateNumber>60374358</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="28" parent="2" name="ips_dm">
+      <ObjectId>629872</ObjectId>
+      <StateNumber>60374359</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="29" parent="2" name="ips_dm_staging">
+      <ObjectId>629845</ObjectId>
+      <StateNumber>50281294</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="30" parent="2" name="ips_staging">
+      <ObjectId>736200</ObjectId>
+      <StateNumber>50282193</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="31" parent="2" name="ldwh">
+      <ObjectId>1687700</ObjectId>
+      <StateNumber>72123814</StateNumber>
+      <OwnerName>derekvandenbroek</OwnerName>
+    </schema>
+    <schema id="32" parent="2" name="lola">
+      <ObjectId>749355</ObjectId>
+      <StateNumber>50282193</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="33" parent="2" name="mailtrack_dm">
+      <ObjectId>472292</ObjectId>
+      <StateNumber>60374363</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="34" parent="2" name="mapp">
+      <ObjectId>4422470</ObjectId>
+      <StateNumber>94626216</StateNumber>
+      <OwnerName>dimitrakaiafa</OwnerName>
+    </schema>
+    <schema id="35" parent="2" name="margin_model">
+      <ObjectId>472294</ObjectId>
+      <StateNumber>105315951</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="36" parent="2" name="mdm">
+      <ObjectId>777106</ObjectId>
+      <StateNumber>62137004</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="37" parent="2" name="ml_datasets">
+      <ObjectId>472303</ObjectId>
+      <StateNumber>60374367</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="38" parent="2" name="moas">
+      <ObjectId>592436</ObjectId>
+      <StateNumber>60374368</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="39" parent="2" name="model_moas">
+      <ObjectId>1291579</ObjectId>
+      <StateNumber>62990185</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="40" parent="2" name="monitoring">
+      <ObjectId>658138</ObjectId>
+      <StateNumber>39746177</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="41" parent="2" name="myparcel">
+      <ObjectId>948239</ObjectId>
+      <StateNumber>60374369</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="42" parent="2" name="navision">
+      <ObjectId>507847</ObjectId>
+      <StateNumber>106621997</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="43" parent="2" name="pg_auto_copy">
+      <Comment>not equal</Comment>
+      <ObjectId>300</ObjectId>
+      <StateNumber>115161456</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="44" parent="2" name="pg_automv">
+      <Comment>I/O</Comment>
+      <ObjectId>200</ObjectId>
+      <StateNumber>49709787</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="45" parent="2" name="pg_catalog">
+      <Comment>System catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>71880120</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="46" parent="2" name="pg_internal">
+      <Comment>Internal schema</Comment>
+      <ObjectId>100</ObjectId>
+      <StateNumber>39746177</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="47" parent="2" name="powerbi">
+      <ObjectId>472295</ObjectId>
+      <StateNumber>60374377</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="48" parent="2" name="productiehuis">
+      <ObjectId>472296</ObjectId>
+      <StateNumber>60374378</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="49" parent="2" name="public">
+      <Comment>Standard public schema</Comment>
+      <Current>1</Current>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>39746177</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="50" parent="2" name="radar_dm">
+      <ObjectId>472297</ObjectId>
+      <StateNumber>60374379</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="51" parent="2" name="reports">
+      <ObjectId>472298</ObjectId>
+      <StateNumber>60374380</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="52" parent="2" name="rfid">
+      <ObjectId>629499</ObjectId>
+      <StateNumber>60374381</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="53" parent="2" name="salesforce">
+      <ObjectId>472304</ObjectId>
+      <StateNumber>60374382</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="54" parent="2" name="springcrm">
+      <ObjectId>592692</ObjectId>
+      <StateNumber>60374383</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="55" parent="2" name="tom">
+      <ObjectId>3693412</ObjectId>
+      <StateNumber>93494194</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="56" parent="2" name="ttint_dm">
+      <ObjectId>471692</ObjectId>
+      <StateNumber>60374384</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="57" parent="2" name="xbs">
+      <ObjectId>472299</ObjectId>
+      <StateNumber>102707686</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <external-schema id="58" parent="5" name="spectrum_bdmgroup">
+      <DatabaseName>db_cbs_bdmgroup</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>1605179</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>60591149</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="59" parent="5" name="spectrum_cbs_refine_cmr">
+      <DatabaseName>cbs_refine_cmr</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346830</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240501</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="60" parent="5" name="spectrum_cbs_refine_mailtrack">
+      <DatabaseName>cbs_refine_mailtrack</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346833</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240533</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="61" parent="5" name="spectrum_cbs_refine_radar">
+      <DatabaseName>cbs_refine_radar</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346834</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240558</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="62" parent="5" name="spectrum_cbs_refine_ttint">
+      <DatabaseName>cbs_refine_ttint</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>1361360</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>57448474</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="63" parent="5" name="spectrum_ecustoms">
+      <DatabaseName>ecustoms</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>4658605</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>97334368</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="64" parent="5" name="spectrum_ipc">
+      <DatabaseName>ipc</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346835</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240570</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="65" parent="5" name="spectrum_myparcel">
+      <DatabaseName>myparcel</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346836</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240600</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="66" parent="5" name="spectrum_oag_flight_info">
+      <DatabaseName>oag_flight_info</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346841</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240610</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="67" parent="5" name="spectrum_prod_awb">
+      <DatabaseName>prod_awb</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2298892</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>69707357</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="68" parent="5" name="spectrum_prod_beacon">
+      <DatabaseName>prod_beacon</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>4429915</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>94735742</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="69" parent="5" name="spectrum_prod_bucketanalysis">
+      <DatabaseName>prod_cbsbucketanalysis</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>3709196</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>87085101</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="70" parent="5" name="spectrum_prod_cbs_mdm">
+      <DatabaseName>prod_cbs_mdm</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346846</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240620</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="71" parent="5" name="spectrum_prod_cbs_ows">
+      <DatabaseName>prod_cbs_ows</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346855</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240637</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="72" parent="5" name="spectrum_prod_cbs_tom">
+      <DatabaseName>prod_cbs_tom_relationalized</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>3639897</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>86332637</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="73" parent="5" name="spectrum_prod_cbs_ttint">
+      <DatabaseName>prod_cbs_ttint</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>1854116</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>112799194</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="74" parent="5" name="spectrum_prod_co2emission">
+      <DatabaseName>prod_co2emission_relationalized</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>4862289</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>99612141</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="75" parent="5" name="spectrum_prod_emp">
+      <DatabaseName>prod_emp</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346861</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240695</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="76" parent="5" name="spectrum_prod_flight_info">
+      <DatabaseName>prod_flight_info</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346862</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240715</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="77" parent="5" name="spectrum_prod_ips_nationals">
+      <DatabaseName>prod_ips_nationals</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346863</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240745</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="78" parent="5" name="spectrum_prod_itmatt">
+      <DatabaseName>prod_itmatt</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346866</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240767</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="79" parent="5" name="spectrum_prod_lola">
+      <DatabaseName>prod_lola</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346869</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240789</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="80" parent="5" name="spectrum_prod_mapp_app">
+      <DatabaseName>prod_mapp_app</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346870</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240799</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="81" parent="5" name="spectrum_prod_mdm">
+      <DatabaseName>prod_mdm</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346871</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240835</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="82" parent="5" name="spectrum_prod_meethuis">
+      <DatabaseName>prod_meethuis</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346874</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240863</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="83" parent="5" name="spectrum_prod_moas_export">
+      <DatabaseName>prod_moas_export</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346875</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240881</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="84" parent="5" name="spectrum_prod_moas_import">
+      <DatabaseName>prod_moas_import</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346876</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240901</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="85" parent="5" name="spectrum_prod_navision">
+      <DatabaseName>prod_navision</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>4716187</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>100356055</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="86" parent="5" name="spectrum_prod_nvr">
+      <DatabaseName>prod_nvr</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346879</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240927</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="87" parent="5" name="spectrum_prod_ows">
+      <DatabaseName>prod_ows</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346884</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240943</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="88" parent="5" name="spectrum_prod_powerbi_logs">
+      <DatabaseName>prod_powerbi_logs</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346887</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70240974</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="89" parent="5" name="spectrum_prod_rfid_container">
+      <DatabaseName>prod_rfid_container</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346888</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70241002</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="90" parent="5" name="spectrum_prod_springcrm">
+      <DatabaseName>prod_springcrm</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346889</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70241015</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="91" parent="5" name="spectrum_prod_unex">
+      <DatabaseName>prod_unex</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2682066</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>74432604</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <external-schema id="92" parent="5" name="spectrum_prod_xbs">
+      <DatabaseName>prod_xbs</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346894</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70241036</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="93" parent="5" name="spectrum_prod_xbs_back">
+      <DatabaseName>prod_xbs_back</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346899</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70241063</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="94" parent="5" name="spectrum_radar">
+      <DatabaseName>radar</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>2346900</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>70241109</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </external-schema>
+    <external-schema id="95" parent="5" name="supply_spectrum_ro">
+      <DatabaseName>cbs-spectrum-supply</DatabaseName>
+      <IamRole>arn:aws:iam::815649711844:role/cbs-spectrum-supply-ro</IamRole>
+      <ObjectId>6153648</ObjectId>
+      <SchemaKind>1</SchemaKind>
+      <StateNumber>117260122</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </external-schema>
+    <schema id="96" parent="5" name="admin">
+      <ObjectId>1881127</ObjectId>
+      <StateNumber>64606111</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="97" parent="5" name="cleanse_ips_nationals">
+      <ObjectId>2871862</ObjectId>
+      <StateNumber>102547694</StateNumber>
+      <OwnerName>derekvandenbroek</OwnerName>
+    </schema>
+    <schema id="98" parent="5" name="cleanse_xbs">
+      <ObjectId>4796501</ObjectId>
+      <StateNumber>102814199</StateNumber>
+      <OwnerName>dimitrakaiafa</OwnerName>
+    </schema>
+    <schema id="99" parent="5" name="functions">
+      <ObjectId>1446120</ObjectId>
+      <StateNumber>99527595</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="100" parent="5" name="information_schema">
+      <ObjectId>17131</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="101" parent="5" name="pg_auto_copy">
+      <Comment>not equal</Comment>
+      <ObjectId>300</ObjectId>
+      <StateNumber>115159777</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="102" parent="5" name="pg_automv">
+      <Comment>I/O</Comment>
+      <ObjectId>200</ObjectId>
+      <StateNumber>49708331</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="103" parent="5" name="pg_catalog">
+      <Comment>System catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="104" parent="5" name="pg_internal">
+      <Comment>Internal schema</Comment>
+      <ObjectId>100</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="105" parent="5" name="prep_awb">
+      <ObjectId>2207026</ObjectId>
+      <StateNumber>68423911</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="106" parent="5" name="prep_beacon">
+      <ObjectId>4430400</ObjectId>
+      <StateNumber>95778664</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="107" parent="5" name="prep_cbs_mdm">
+      <ObjectId>1578688</ObjectId>
+      <StateNumber>60000882</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="108" parent="5" name="prep_cbs_tom">
+      <ObjectId>3640122</ObjectId>
+      <StateNumber>93494052</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="109" parent="5" name="prep_cbs_ttint">
+      <ObjectId>3767773</ObjectId>
+      <StateNumber>87870001</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="110" parent="5" name="prep_dsa_trc">
+      <ObjectId>2055872</ObjectId>
+      <StateNumber>66359712</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </schema>
+    <schema id="111" parent="5" name="prep_dwa_pnp">
+      <ObjectId>2055871</ObjectId>
+      <StateNumber>66359707</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </schema>
+    <schema id="112" parent="5" name="prep_ecustoms">
+      <ObjectId>4658586</ObjectId>
+      <StateNumber>97333589</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="113" parent="5" name="prep_emission_tool">
+      <ObjectId>5063707</ObjectId>
+      <StateNumber>101828097</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="114" parent="5" name="prep_emp">
+      <ObjectId>1570732</ObjectId>
+      <StateNumber>72961875</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="115" parent="5" name="prep_flight_info">
+      <ObjectId>2055869</ObjectId>
+      <StateNumber>66359692</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </schema>
+    <schema id="116" parent="5" name="prep_ips_nationals">
+      <ObjectId>1373493</ObjectId>
+      <StateNumber>57673947</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="117" parent="5" name="prep_itmatt">
+      <ObjectId>1827159</ObjectId>
+      <StateNumber>75162655</StateNumber>
+      <OwnerName>gayathrikumar</OwnerName>
+    </schema>
+    <schema id="118" parent="5" name="prep_ldwh_dimensions">
+      <ObjectId>5135296</ObjectId>
+      <StateNumber>102938044</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="119" parent="5" name="prep_lola">
+      <ObjectId>1714063</ObjectId>
+      <StateNumber>61935909</StateNumber>
+      <OwnerName>madhuparnadhar</OwnerName>
+    </schema>
+    <schema id="120" parent="5" name="prep_mapp_app">
+      <ObjectId>1844923</ObjectId>
+      <StateNumber>64141380</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </schema>
+    <schema id="121" parent="5" name="prep_mdm">
+      <ObjectId>4093625</ObjectId>
+      <StateNumber>93156811</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="122" parent="5" name="prep_moas_export">
+      <ObjectId>1808086</ObjectId>
+      <StateNumber>63537684</StateNumber>
+      <OwnerName>unknown (UID=152)</OwnerName>
+    </schema>
+    <schema id="123" parent="5" name="prep_moas_import">
+      <ObjectId>1453166</ObjectId>
+      <StateNumber>58359123</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="124" parent="5" name="prep_navision">
+      <ObjectId>4855924</ObjectId>
+      <StateNumber>99609020</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="125" parent="5" name="prep_rfid_container">
+      <ObjectId>1759881</ObjectId>
+      <StateNumber>62672097</StateNumber>
+      <OwnerName>gayathrikumar</OwnerName>
+    </schema>
+    <schema id="126" parent="5" name="prep_unex">
+      <ObjectId>2696099</ObjectId>
+      <StateNumber>74557782</StateNumber>
+      <OwnerName>madhuparnadhar</OwnerName>
+    </schema>
+    <schema id="127" parent="5" name="prep_xbs">
+      <ObjectId>2055868</ObjectId>
+      <StateNumber>112444794</StateNumber>
+      <OwnerName>jayleshsoebedar</OwnerName>
+    </schema>
+    <schema id="128" parent="5" name="prep_xbs_back">
+      <ObjectId>6246304</ObjectId>
+      <StateNumber>119149936</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="129" parent="5" name="public">
+      <Comment>Standard public schema</Comment>
+      <Current>1</Current>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="130" parent="6" name="admin">
+      <ObjectId>2438597</ObjectId>
+      <StateNumber>71456769</StateNumber>
+      <OwnerName>derekvandenbroek</OwnerName>
+    </schema>
+    <schema id="131" parent="6" name="configuration">
+      <ObjectId>2438485</ObjectId>
+      <StateNumber>106324434</StateNumber>
+      <OwnerName>derekvandenbroek</OwnerName>
+    </schema>
+    <schema id="132" parent="6" name="conformed_dim">
+      <ObjectId>5245238</ObjectId>
+      <StateNumber>108554666</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="133" parent="6" name="information_schema">
+      <ObjectId>17131</ObjectId>
+      <StateNumber>72114822</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="134" parent="6" name="ldwh_postal_export_model">
+      <ObjectId>5374377</ObjectId>
+      <StateNumber>108554666</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="135" parent="6" name="ldwh_postal_export_pre_model">
+      <ObjectId>1428615</ObjectId>
+      <StateNumber>108554666</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="136" parent="6" name="pg_auto_copy">
+      <Comment>not equal</Comment>
+      <ObjectId>300</ObjectId>
+      <StateNumber>115158103</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="137" parent="6" name="pg_automv">
+      <Comment>I/O</Comment>
+      <ObjectId>200</ObjectId>
+      <StateNumber>49708331</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="138" parent="6" name="pg_catalog">
+      <Comment>System catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="139" parent="6" name="pg_internal">
+      <Comment>Internal schema</Comment>
+      <ObjectId>100</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="140" parent="6" name="public">
+      <Comment>Standard public schema</Comment>
+      <Current>1</Current>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="141" parent="9" name="information_schema">
+      <ObjectId>17131</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="142" parent="9" name="mgt_access">
+      <ObjectId>6163878</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="143" parent="9" name="mgt_cluster_metrics">
+      <ObjectId>6163875</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="144" parent="9" name="mgt_lineage">
+      <ObjectId>6163879</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="145" parent="9" name="mgt_meta_db_object">
+      <ObjectId>6163882</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="146" parent="9" name="mgt_mv_log">
+      <ObjectId>6163880</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="147" parent="9" name="mgt_mv_orch">
+      <ObjectId>6163881</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="148" parent="9" name="mgt_redshift_metadata_register">
+      <ObjectId>6233670</ObjectId>
+      <StateNumber>118917270</StateNumber>
+      <OwnerName>ninovrolijk</OwnerName>
+    </schema>
+    <schema id="149" parent="9" name="mgt_sproc_log">
+      <ObjectId>6163877</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="150" parent="9" name="mgt_sproc_orch">
+      <ObjectId>6163876</ObjectId>
+      <StateNumber>117440269</StateNumber>
+      <OwnerName>cbs_admin</OwnerName>
+    </schema>
+    <schema id="151" parent="9" name="pg_auto_copy">
+      <Comment>not equal</Comment>
+      <ObjectId>300</ObjectId>
+      <StateNumber>115154782</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="152" parent="9" name="pg_automv">
+      <Comment>I/O</Comment>
+      <ObjectId>200</ObjectId>
+      <StateNumber>49708331</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="153" parent="9" name="pg_catalog">
+      <Comment>System catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="154" parent="9" name="pg_internal">
+      <Comment>Internal schema</Comment>
+      <ObjectId>100</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="155" parent="9" name="public">
+      <Comment>Standard public schema</Comment>
+      <Current>1</Current>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="156" parent="10" name="information_schema">
+      <ObjectId>17131</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="157" parent="10" name="pg_auto_copy">
+      <Comment>not equal</Comment>
+      <ObjectId>300</ObjectId>
+      <StateNumber>115154782</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="158" parent="10" name="pg_automv">
+      <Comment>I/O</Comment>
+      <ObjectId>200</ObjectId>
+      <StateNumber>49708331</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="159" parent="10" name="pg_catalog">
+      <Comment>System catalog schema</Comment>
+      <ObjectId>11</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="160" parent="10" name="pg_internal">
+      <Comment>Internal schema</Comment>
+      <ObjectId>100</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="161" parent="10" name="public">
+      <Comment>Standard public schema</Comment>
+      <Current>1</Current>
+      <ObjectId>2200</ObjectId>
+      <StateNumber>39746159</StateNumber>
+      <OwnerName>rdsdb</OwnerName>
+    </schema>
+    <schema id="162" parent="10" name="testschema">
+      <ObjectId>6238110</ObjectId>
+      <StateNumber>118947447</StateNumber>
+      <OwnerName>lannguyen</OwnerName>
+    </schema>
+  </database-model>
+</dataSource>

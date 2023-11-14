@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="PY-232.10203.26">
+    <data-source name="ACC-RW" uuid="508aeed2-1a9f-42c2-a9f5-09a93492db1e">
+      <database-info product="Redshift" version="8.0.2" jdbc-version="4.2" driver-name="Redshift JDBC Driver" driver-version="2.1.0.18" dbms="REDSHIFT" exact-version="1.0.58814" exact-driver-version="2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>lannguyen</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="accp">
+              <node kind="schema">
+                <name qname="ips" />
+                <name qname="ips_dm" />
+                <name qname="ips_staging" />
+              </node>
+            </node>
+            <node kind="database" qname="cicd_test">
+              <node kind="schema">
+                <name qname="public" />
+                <name qname="testschema" />
+              </node>
+            </node>
+            <node kind="database" qname="dwh_db">
+              <node kind="schema">
+                <name qname="admin" />
+                <name qname="configuration" />
+                <name qname="conformed_dim" />
+                <name qname="ldwh_postal_export_model" />
+                <name qname="ldwh_postal_export_pre_model" />
+              </node>
+            </node>
+            <node kind="database" qname="ingest_db">
+              <node kind="schema" qname="cleanse_ips_nationals" />
+            </node>
+            <node kind="database" qname="mgt_db">
+              <node kind="schema">
+                <name qname="mgt_access" />
+                <name qname="mgt_cluster_metrics" />
+                <name qname="mgt_lineage" />
+                <name qname="mgt_meta_db_object" />
+                <name qname="mgt_mv_log" />
+                <name qname="mgt_mv_orch" />
+                <name qname="mgt_redshift_metadata_register" />
+                <name qname="mgt_sproc_log" />
+                <name qname="mgt_sproc_orch" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="PROD-RO" uuid="1c6a4437-82b0-4083-9703-c895b551d5fc">
+      <database-info product="Redshift" version="8.0.2" jdbc-version="4.2" driver-name="Redshift JDBC Driver" driver-version="2.1.0.18" dbms="REDSHIFT" exact-version="1.0.58814" exact-driver-version="2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>lannguyen</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="cicd_test">
+              <node kind="schema">
+                <name qname="public" />
+                <name qname="testschema" />
+              </node>
+            </node>
+            <node kind="database" qname="dwh_db">
+              <node kind="schema">
+                <name qname="admin" />
+                <name qname="configuration" />
+                <name qname="conformed_dim" />
+                <name qname="ldwh_postal_export_model" />
+                <name qname="ldwh_postal_export_pre_model" />
+              </node>
+            </node>
+            <node kind="database" qname="pentahodb">
+              <node kind="schema">
+                <name qname="ips" />
+                <name qname="ips_dm" />
+                <name qname="ips_staging" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

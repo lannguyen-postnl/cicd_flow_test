@@ -1,38 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0246e00-a972-4608-9fc0-418bb3f4fe1a" name="Changes" comment="" />
+    <list default="true" id="af64ce30-6512-43e7-9a5f-df3006ec7832" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="1c6a4437-82b0-4083-9703-c895b551d5fc" value="Rose" />
+      <entry key="508aeed2-1a9f-42c2-a9f5-09a93492db1e" value="Blue" />
+    </colors>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectId" id="2XwGmKuLYJTlxsZ6Ad5sWzDUcEw" />
+  <component name="MigrationScriptOptions">
+    <option name="ignoreImplicitObjects" value="false" />
+    <option name="ignoreSourceCode" value="false" />
+    <option name="optionsStr" value="AllowRecreate=0, QualifyWithSchema=ALWAYS, IgnoreCaseChanges=1, Owner=1, Grants=1, Reformat=0" />
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Scratch files" pattern="file[db]:*" />
+    <scope name="cicd_flow_test" pattern="file[cicd_flow_test]:*||file[cicd_flow_test]:DDL/*" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2QvY1Xl4DolBpgTXPigmB0TXjJL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Users/lan.nguyen/AppData/Roaming/DBeaverData/workspace6/General/Scripts/cicd_flow_test",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/lan.nguyen/AppData/Roaming/DBeaverData/workspace6/General/Scripts/cicd_flow_test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;sql.codeStylePanel.last.previewDialect&quot;: &quot;PostgreSQL&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/Users/lan.nguyen/AppData/Roaming/DBeaverData/workspace6/General/Scripts/cicd_flow_test/CICD/ACCP/CICD_DB_1_DEV_DDL_Dump/testschema&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Redshift&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\lan.nguyen\AppData\Roaming\DBeaverData\workspace6\General\Scripts\cicd_flow_test\CICD\ACCP" />
+    </key>
+  </component>
+  <component name="SQLScriptSettings">
+    <option name="matrix">
+      <map>
+        <entry key="REDSHIFT.CreateComplete" value="QualifyWithSchema=ALWAYS, CreateOrReplace=1, CreateIfNotExists=1, Owner=1, Grants=1, Reformat=0" />
+      </map>
+    </option>
+    <option name="outputLayout" value="File per object by schema and database.groovy" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f0246e00-a972-4608-9fc0-418bb3f4fe1a" name="Changes" comment="" />
-      <created>1699532887247</created>
+      <changelist id="af64ce30-6512-43e7-9a5f-df3006ec7832" name="Changes" comment="" />
+      <created>1686235314131</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1699532887247</updated>
-      <workItem from="1699532888582" duration="2000" />
+      <updated>1686235314131</updated>
+      <workItem from="1686235317125" duration="46000" />
+      <workItem from="1686235385201" duration="854000" />
+      <workItem from="1686293263364" duration="23453000" />
+      <workItem from="1686322488308" duration="678000" />
+      <workItem from="1686323193142" duration="6554000" />
+      <workItem from="1686554499338" duration="2981000" />
+      <workItem from="1686597056806" duration="13337000" />
+      <workItem from="1687160928534" duration="9787000" />
+      <workItem from="1687331667956" duration="11371000" />
+      <workItem from="1687423558576" duration="589000" />
+      <workItem from="1687425419296" duration="8758000" />
+      <workItem from="1687760615163" duration="3086000" />
+      <workItem from="1687763738394" duration="15996000" />
+      <workItem from="1687851703256" duration="7972000" />
+      <workItem from="1687937819754" duration="6444000" />
+      <workItem from="1688026526871" duration="5840000" />
+      <workItem from="1688032418346" duration="1787000" />
+      <workItem from="1688037111317" duration="5767000" />
+      <workItem from="1688718876937" duration="9187000" />
+      <workItem from="1688988687711" duration="29472000" />
+      <workItem from="1689144191206" duration="21167000" />
+      <workItem from="1689589464198" duration="17649000" />
+      <workItem from="1689666598677" duration="2757000" />
+      <workItem from="1689686897795" duration="28629000" />
+      <workItem from="1689839551274" duration="16545000" />
+      <workItem from="1690270461452" duration="7074000" />
+      <workItem from="1690450595873" duration="11543000" />
+      <workItem from="1690530175958" duration="3594000" />
+      <workItem from="1690790898154" duration="23690000" />
+      <workItem from="1690882610372" duration="4162000" />
+      <workItem from="1690891702350" duration="163000" />
+      <workItem from="1690892048393" duration="575000" />
+      <workItem from="1690892656062" duration="752000" />
+      <workItem from="1690893440211" duration="1672000" />
+      <workItem from="1690895161200" duration="836000" />
+      <workItem from="1690896041814" duration="53000" />
+      <workItem from="1690896529001" duration="2584000" />
+      <workItem from="1691047750147" duration="19103000" />
+      <workItem from="1691137230193" duration="18760000" />
+      <workItem from="1691397103035" duration="16119000" />
+      <workItem from="1691495659215" duration="63176000" />
+      <workItem from="1691763297397" duration="1197000" />
+      <workItem from="1691994850061" duration="20048000" />
+      <workItem from="1692086927210" duration="64638000" />
+      <workItem from="1692775554333" duration="40372000" />
+      <workItem from="1693296675939" duration="344000" />
+      <workItem from="1693297061032" duration="24862000" />
+      <workItem from="1693481176827" duration="95999000" />
+      <workItem from="1695021374941" duration="101336000" />
+      <workItem from="1696321008038" duration="50807000" />
+      <workItem from="1697441643365" duration="26748000" />
+      <workItem from="1697630163278" duration="12384000" />
+      <workItem from="1697709377939" duration="3956000" />
+      <workItem from="1697716838742" duration="16505000" />
+      <workItem from="1698134193292" duration="1989000" />
+      <workItem from="1698137197642" duration="3917000" />
+      <workItem from="1698146085322" duration="6647000" />
+      <workItem from="1698154102917" duration="55502000" />
+      <workItem from="1698745578078" duration="66820000" />
+      <workItem from="1699523712466" duration="6706000" />
+      <workItem from="1699541077059" duration="28222000" />
+      <workItem from="1699892088800" duration="601000" />
+      <workItem from="1699892974636" duration="593000" />
+      <workItem from="1699901846488" duration="148000" />
+      <workItem from="1699902119784" duration="644000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

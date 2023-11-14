@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="de82b17b-d2a1-4d91-9d0e-61e48d85f55a" name="ACC-DDL-VSC-DWH_DB">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="ed9d224f-6a4f-45be-928f-fd832d7c6b84" />
+      <scope>
+        <node kind="database" qname="dwh_db">
+          <node kind="schema">
+            <name qname="admin" />
+            <name qname="configuration" />
+            <name qname="conformed_dim" />
+            <name qname="ldwh_postal_export_model" />
+            <name qname="ldwh_postal_export_pre_model" />
+            <name qname="ldwh_postal_export" />
+            <name qname="mdm_config" />
+            <name qname="config" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="86c4a1b0-2d1d-42b0-afd0-6a75994b2c9a" name="ACC-DDL-VSC-INGEST_DB Mapping">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="d9d48b04-ce40-4a03-a4d0-7e71b61ee363" />
+      <scope>
+        <node kind="database" qname="ingest_db">
+          <node kind="schema">
+            <name qname="admin" />
+            <name qname="cleanse_ips_nationals" />
+            <name qname="cleanse_xbs" />
+            <name qname="functions" />
+            <name qname="prep_awb" />
+            <name qname="prep_beacon" />
+            <name qname="prep_cbs_mdm" />
+            <name qname="prep_cbs_tom" />
+            <name qname="prep_cbs_ttint" />
+            <name qname="prep_dsa_trc" />
+            <name qname="prep_dwa_pnp" />
+            <name qname="prep_ecustoms" />
+            <name qname="prep_emission_tool" />
+            <name qname="prep_emp" />
+            <name qname="prep_flight_info" />
+            <name qname="prep_ips_nationals" />
+            <name qname="prep_itmatt" />
+            <name qname="prep_ldwh_dimensions" />
+            <name qname="prep_lola" />
+            <name qname="prep_mapp_app" />
+            <name qname="prep_mdm" />
+            <name qname="prep_moas_export" />
+            <name qname="prep_moas_import" />
+            <name qname="prep_navision" />
+            <name qname="prep_rfid_container" />
+            <name qname="prep_unex" />
+            <name qname="prep_xbs" />
+            <name qname="prep_xbs_back" />
+            <name qname="prep_navision_test" />
+            <name qname="remodel_ips_nationals" />
+            <name qname="xbs_cleanse" />
+          </node>
+          <node kind="external-schema">
+            <name qname="spectrum_bdmgroup" />
+            <name qname="spectrum_cbs_refine_cmr" />
+            <name qname="spectrum_cbs_refine_mailtrack" />
+            <name qname="spectrum_cbs_refine_radar" />
+            <name qname="spectrum_cbs_refine_ttint" />
+            <name qname="spectrum_ecustoms" />
+            <name qname="spectrum_ipc" />
+            <name qname="spectrum_myparcel" />
+            <name qname="spectrum_oag_flight_info" />
+            <name qname="spectrum_prod_awb" />
+            <name qname="spectrum_prod_beacon" />
+            <name qname="spectrum_prod_bucketanalysis" />
+            <name qname="spectrum_prod_cbs_mdm" />
+            <name qname="spectrum_prod_cbs_ows" />
+            <name qname="spectrum_prod_cbs_tom" />
+            <name qname="spectrum_prod_cbs_ttint" />
+            <name qname="spectrum_prod_co2emission" />
+            <name qname="spectrum_prod_emp" />
+            <name qname="spectrum_prod_flight_info" />
+            <name qname="spectrum_prod_ips_nationals" />
+            <name qname="spectrum_prod_itmatt" />
+            <name qname="spectrum_prod_lola" />
+            <name qname="spectrum_prod_mapp_app" />
+            <name qname="spectrum_prod_mdm" />
+            <name qname="spectrum_prod_meethuis" />
+            <name qname="spectrum_prod_moas_export" />
+            <name qname="spectrum_prod_moas_import" />
+            <name qname="spectrum_prod_navision" />
+            <name qname="spectrum_prod_nvr" />
+            <name qname="spectrum_prod_ows" />
+            <name qname="spectrum_prod_powerbi_logs" />
+            <name qname="spectrum_prod_rfid_container" />
+            <name qname="spectrum_prod_springcrm" />
+            <name qname="spectrum_prod_unex" />
+            <name qname="spectrum_prod_xbs" />
+            <name qname="spectrum_prod_xbs_back" />
+            <name qname="spectrum_radar" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="21657517-3a36-4f70-90f1-f01c49355851" name="ACCP-DDL-VSC-ACCP_DB Mapping">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="c3132fef-d6e7-4075-b650-40f637a4719b" />
+      <scope>
+        <node kind="database" qname="accp">
+          <node kind="schema" qname="collo" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="84c8b518-d98b-4386-9e2d-26a35d582e1a" name="ACCP_DWH_DB Mapping">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="ac74848d-64f2-4a97-99a4-3edfc34132bd" />
+      <scope>
+        <node kind="database" qname="dwh_db">
+          <node kind="external-schema" negative="1" />
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="eed83509-e49c-4055-965d-8ffbed577ee9" name="PROD_INGEST_DB Mapping">
+      <data-sources db="1c6a4437-82b0-4083-9703-c895b551d5fc" ddl="6692bc05-282a-4f1c-acec-73b1c9505295" />
+      <scope>
+        <node kind="database" qname="ingest_db">
+          <node kind="external-schema" negative="1" />
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="ce1717ca-7061-4f7d-a51b-fee04c949e07" name="PROD_PENTAHO_DB Mapping">
+      <data-sources db="1c6a4437-82b0-4083-9703-c895b551d5fc" ddl="ce504503-1e7f-40f6-8857-bc89d0d5f5d3" />
+      <scope>
+        <node kind="database" qname="pentahodb">
+          <node kind="external-schema" negative="1" />
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="b2312757-a3e3-40cc-b268-ca3201c1457a" name="PROD_DWH_DB Mapping">
+      <data-sources db="1c6a4437-82b0-4083-9703-c895b551d5fc" ddl="4037c96d-cd68-4f4c-9373-e1f2678c019c" />
+      <scope>
+        <node kind="database" qname="dwh_db">
+          <node kind="external-schema" negative="1" />
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="971e019c-a568-4c51-96bc-f6c746703d8e" name="ACCP_ACCP_DB Mapping">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="da372e75-4e12-49ba-ac43-57deafea665b" />
+      <scope>
+        <node kind="database" qname="accp">
+          <node kind="schema" negative="1" />
+          <node kind="external-schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="d08908f3-c473-4d6b-8833-d72e6045a5f1" name="ACCP_INGEST_DB Mapping">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="a96475f7-4495-43df-b93c-432fad8babf4" />
+      <scope>
+        <node kind="database" qname="ingest_db">
+          <node kind="external-schema" negative="1" />
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="523e7a54-d46c-42f5-8ba4-6dc5dc8611a2" name="4_CICD_DB_DDL_Dev_Dump Mapping">
+      <data-sources db="508aeed2-1a9f-42c2-a9f5-09a93492db1e" ddl="eff21589-b890-48c2-8fda-b3ee688e6d69" />
+      <scope>
+        <node kind="database" qname="cicd_test">
+          <node kind="schema">
+            <name qname="public" />
+            <name qname="testschema" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+    <mapping uuid="051abb9f-00cb-4436-bfb5-d265438abede" name="4_CICD_DB_DDL_Prod_Dump Mapping">
+      <data-sources db="1c6a4437-82b0-4083-9703-c895b551d5fc" ddl="c2cc4222-528c-47c0-81f9-fe6e31a3129c" />
+      <scope>
+        <node kind="database" qname="cicd_test">
+          <node kind="schema">
+            <name qname="public" />
+            <name qname="testschema" />
+          </node>
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="ed9d224f-6a4f-45be-928f-fd832d7c6b84" />
+          <option name="name" value="ACC-DDL-VSC-DWH_DB" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DDL/1 A-DDL-Redshift-dump/dwh_db" />
+            </array>
+          </option>
+          <option name="group" value="ACC_DDL_DUMP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+          <option name="scopes">
+            <map>
+              <entry key="$PROJECT_DIR$/DDL/1 A-DDL-Redshift-dump/dwh_db" value="dwh_db" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="d9d48b04-ce40-4a03-a4d0-7e71b61ee363" />
+          <option name="name" value="ACC-DDL-VSC-INGEST_DB" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DDL/1 A-DDL-Redshift-dump/ingest_db" />
+            </array>
+          </option>
+          <option name="group" value="ACC_DDL_DUMP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="c3132fef-d6e7-4075-b650-40f637a4719b" />
+          <option name="name" value="ACC-DDL-VSC-ACCP_DB" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DDL/1 A-DDL-Redshift-dump/accp_db" />
+            </array>
+          </option>
+          <option name="group" value="ACC_DDL_DUMP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="da372e75-4e12-49ba-ac43-57deafea665b" />
+          <option name="name" value="1_ACCP_DB_DDL_Dev_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/CICD/ACCP/ACCP_DB_1_DEV_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="ACCP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="ac74848d-64f2-4a97-99a4-3edfc34132bd" />
+          <option name="name" value="2_DWH_DB_DDL_Dev_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/CICD/ACCP/DWH_DB_1_DEV_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="ACCP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="a96475f7-4495-43df-b93c-432fad8babf4" />
+          <option name="name" value="3_INGEST_DB_DDL_Dev_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/CICD/ACCP/INGEST_DB_1_DEV_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="ACCP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="ce504503-1e7f-40f6-8857-bc89d0d5f5d3" />
+          <option name="name" value="1_PENTAHO_DDL_Prod_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/CICD/PROD/1_PENTAHO_PROD_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="PROD" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="4037c96d-cd68-4f4c-9373-e1f2678c019c" />
+          <option name="name" value="2_DWH_DB_DDL_Prod_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/CICD/PROD/2_DWH_PROD_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="PROD" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="6692bc05-282a-4f1c-acec-73b1c9505295" />
+          <option name="name" value="3_INGEST_DB_DDL_Prod_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/CICD/PROD/3_INGEST_DB_PROD_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="PROD" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="eff21589-b890-48c2-8fda-b3ee688e6d69" />
+          <option name="name" value="4_CICD_DB_DDL_Dev_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/../cicd_flow_test/CICD/ACCP/CICD_DB_1_DEV_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="ACCP" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="c2cc4222-528c-47c0-81f9-fe6e31a3129c" />
+          <option name="name" value="4_CICD_DB_DDL_Prod_Dump" />
+          <option name="dbmsName" value="REDSHIFT" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/../cicd_flow_test/CICD/PROD/4_CICD_DB_PROD_DDL_Dump" />
+            </array>
+          </option>
+          <option name="group" value="PROD" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="CreateIfNotExists" value="1" />
+              <entry key="CreateOrReplace" value="1" />
+              <entry key="Grants" value="1" />
+              <entry key="Owner" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="0" />
+            </map>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>

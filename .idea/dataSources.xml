@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ACC-RW" track-namespaces="false" uuid="508aeed2-1a9f-42c2-a9f5-09a93492db1e">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>Acceptance read-write</remarks>
+      <jdbc-driver>com.amazon.redshift.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://redshift-cbs-acc-instance.cszc6eawt3at.eu-west-1.redshift.amazonaws.com:5439/accp</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="PROD-RO" uuid="1c6a4437-82b0-4083-9703-c895b551d5fc">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>Prod</remarks>
+      <jdbc-driver>com.amazon.redshift.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://cbs-pentaho-dw-instance.cszc6eawt3at.eu-west-1.redshift.amazonaws.com:5439/ingest_db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
